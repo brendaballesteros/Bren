@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Lean en Caesars & La Quinta Disciplina</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos personalizados para el diseño visual */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+        }
+        .container-box {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+            min-height: 12rem;
+        }
+        .container-box:hover {
+            transform: translateY(-5px);
+        }
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0d9488;
+            border-bottom: 3px solid #14b8a6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .subsection-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #0f766e;
+            margin-bottom: 0.75rem;
+        }
+        .lean-principle {
+            background-color: #e0f2f1;
+            border-left: 4px solid #14b8a6;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        /* Iconos como simulación de SVG */
+        .icon-box {
+            font-size: 2.5rem;
+            line-height: 1;
+            margin-right: 0.75rem;
+            color: #0d9488;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+
+    <header class="text-center mb-8">
+        <h1 class="text-3xl md:text-5xl font-extrabold text-gray-800 mb-2">INFOGRAFÍA: Lean Management & La Quinta Disciplina</h1>
+        <p class="text-xl text-gray-600">Análisis del Caso Caesars Casinos y Conceptos de Peter Senge</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto">
+
+        <!-- PARTE 1: CASO CAESARS Y LOS 4 DÍAS KAIZEN -->
+        <div class="section-title text-center">
+            PARTE 1. Análisis de Caso: Implementación SIN DESPERDICIOS
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Columna de Objetivos -->
+            <div class="container-box col-span-1 bg-teal-50 border-teal-600 border-b-4">
+                <div class="flex items-center mb-4">
+                    <span class="icon-box">🎯</span>
+                    <h2 class="subsection-title mb-0">Objetivos del Proyecto Túnica</h2>
+                </div>
+                <ul class="space-y-2 text-gray-700 list-disc pl-5">
+                    <li>Mejorar la <strong>Experiencia del Cliente</strong> (Calificación 'B' a 'A').</li>
+                    <li>Incrementar la <strong>Eficacia y Rentabilidad</strong> eliminando desperdicio.</li>
+                    <li>Fomentar una <strong>Cultura de Mejora Continua (Kaizen)</strong>.</li>
+                    <li>Aumentar la <strong>Satisfacción y Bonificaciones</strong> del personal.</li>
+                </ul>
+            </div>
+
+            <!-- Columna de Desperdicio DOWNTIME -->
+            <div class="container-box col-span-2 bg-red-50 border-red-600 border-b-4">
+                <div class="flex items-center mb-4">
+                    <span class="icon-box text-red-600">❌</span>
+                    <h2 class="subsection-title mb-0">El Desperdicio (Muda): DOWNTIME</h2>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-gray-700 font-medium">
+                    <div class="bg-red-200 p-2 rounded-md"><strong>D</strong>efectos</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>O</strong>breproducción</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>W</strong>aiting (Espera)</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>N</strong>o Involucrar a la gente</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>T</strong>ransporte</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>I</strong>nventario</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>M</strong>ovimiento</div>
+                    <div class="bg-red-200 p-2 rounded-md"><strong>E</strong>xtra-Procesamiento</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fases del Kaizen -->
+        <div class="subsection-title text-center mt-6 text-2xl text-gray-800">
+            Los 4 Días Kaizen: La Hoja de Ruta de la Mejora
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+
+            <!-- Día 1: Identificación -->
+            <div class="container-box bg-blue-50 border-blue-600 border-b-4">
+                <h3 class="font-bold text-lg text-blue-700 mb-2">DÍA 1: IDENTIFICAR</h3>
+                <p class="text-sm"><strong>Foco:</strong> Instrucción y desmitificación del concepto Lean.</p>
+                <div class="lean-principle"><strong>Concepto Clave:</strong> DOWNTIME.</div>
+                <div class="lean-principle"><strong>Resultado:</strong> Los equipos definen el proceso objetivo a mejorar y reconocen el desperdicio.</div>
+            </div>
+
+            <!-- Día 2: Visualización y Priorización -->
+            <div class="container-box bg-purple-50 border-purple-600 border-b-4">
+                <h3 class="font-bold text-lg text-purple-700 mb-2">DÍA 2: VISUALIZAR</h3>
+                <p class="text-sm"><strong>Foco:</strong> Cuantificar y ubicar el desperdicio.</p>
+                <div class="lean-principle"><strong>Herramientas:</strong> Caminata <strong>Gemba</strong>, <strong>VSM</strong>, <strong>Diagrama de Espagueti</strong>.</div>
+                <div class="lean-principle"><strong>Apalancamiento:</strong> <strong>Matriz de Priorización</strong> (Fácil/Difícil vs. Gran/Pequeño Impacto). Enfocarse en "quick wins".</div>
+            </div>
+
+            <!-- Día 3: Causa Raíz -->
+            <div class="container-box bg-yellow-50 border-yellow-600 border-b-4">
+                <h3 class="font-bold text-lg text-yellow-700 mb-2">DÍA 3: ANALIZAR</h3>
+                <p class="text-sm"><strong>Foco:</strong> Ir más allá del síntoma.</p>
+                <div class="lean-principle"><strong>Herramienta:</strong> <strong>Cinco Por Qué (5 Why)</strong>.</div>
+                <div class="lean-principle"><strong>Ejemplo Clave:</strong> Cubiertos manchados (síntoma) → Falta de mantenimiento de lavaplatos (causa raíz). Atacar la <strong>causa fundamental</strong>.</div>
+            </div>
+
+            <!-- Día 4: Implementación -->
+            <div class="container-box bg-green-50 border-green-600 border-b-4">
+                <h3 class="font-bold text-lg text-green-700 mb-2">DÍA 4: TRY-STORMING</h3>
+                <p class="text-sm"><strong>Foco:</strong> Probar y estandarizar la nueva forma de trabajo.</p>
+                <div class="lean-principle"><strong>Implementación:</strong> <strong>5S</strong> (Clasificar, Ordenar, Pulir, Estandarizar, Sostener).</div>
+                <div class="lean-principle"><strong>Clave:</strong> Crear <strong>Trabajo Estándar</strong> y <strong>Sistemas Visuales</strong> (Ej. Sistema de dos compartimientos/Kanban).</div>
+            </div>
+        </div>
+        
+        <!-- PARTE 2: LA QUINTA DISCIPLINA -->
+        <div class="section-title text-center mt-10">
+            PARTE 2. Investigación Bibliográfica: La Quinta Disciplina (Peter Senge)
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Disciplinas de Aprendizaje -->
+            <div class="container-box bg-indigo-50 border-indigo-600 border-b-4">
+                <div class="flex items-center mb-4">
+                    <span class="icon-box text-indigo-600">🧠</span>
+                    <h2 class="subsection-title mb-0">Las 5 Disciplinas del Aprendizaje</h2>
+                </div>
+                <ul class="space-y-2 text-gray-700 list-disc pl-5">
+                    <li><strong>Dominio Personal:</strong> Aclarar la visión y ver la realidad objetivamente.</li>
+                    <li><strong>Modelos Mentales:</strong> Exponer supuestos internos para escrutinio; practicar el <strong>Diálogo</strong>.</li>
+                    <li><strong>Visión Compartida:</strong> Construir un compromiso genuino alrededor de un propósito común.</li>
+                    <li><strong>Aprendizaje en Equipo:</strong> Desarrollar la capacidad de un <strong>pensamiento conjunto</strong>.</li>
+                    <li><strong>Pensamiento Sistémico (5ª Disciplina):</strong> La disciplina integradora. Ver <strong>totalidades</strong> en lugar de fragmentos.</li>
+                </ul>
+            </div>
+
+            <!-- Leyes y Apalancamiento -->
+            <div class="container-box bg-yellow-50 border-yellow-600 border-b-4">
+                <div class="flex items-center mb-4">
+                    <span class="icon-box text-yellow-600">🔭</span>
+                    <h2 class="subsection-title mb-0">Leyes del Pensamiento Sistémico</h2>
+                </div>
+                <ul class="space-y-2 text-gray-700 list-disc pl-5">
+                    <li><strong>Causa y Efecto no están próximos:</strong> La consecuencia de una acción ocurre en otro lugar o tiempo.</li>
+                    <li><strong>La Cura puede ser peor que la Enfermedad:</strong> Las soluciones sintomáticas generan <strong>Desplazamiento de la Carga</strong>.</li>
+                    <li><strong>Los Problemas de hoy derivan de las "soluciones" de ayer.</strong></li>
+                    <li><strong>Analogía de la "Rana Hervida":</strong> La incapacidad para reaccionar a cambios lentos y graduales.</li>
+                    <li><strong>El Principio de la Palanca:</strong> Pequeños actos y modificaciones estructurales en el punto correcto llevan a mejoras duraderas.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Conclusión Integración -->
+        <div class="container-box mt-6 bg-green-100 border-green-600 border-b-4">
+            <h2 class="subsection-title text-center text-green-800">Conclusión: Integración Lean y Sistemas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-700">
+                <div>
+                    <p class="font-bold text-teal-800">Lean como Aplicación Sistémica:</p>
+                    <p class="text-sm">La <strong>Mejora Continua (Kaizen)</strong> es el <strong>Aprendizaje Generativo</strong> en acción. El <strong>VSM</strong> obliga a ver la <strong>Totalidad</strong> del flujo de valor.</p>
+                </div>
+                <div>
+                    <p class="font-bold text-teal-800">El Riesgo del Desplazamiento:</p>
+                    <p class="text-sm">El uso de <strong>soluciones sintomáticas</strong> (ej. pulir cubiertos, o trabajar horas extra) atrofia la capacidad de la organización para implementar <strong>soluciones fundamentales</strong>.</p>
+                </div>
+                <div>
+                    <p class="font-bold text-teal-800">La Palanca en Metrópolis:</p>
+                    <p class="text-sm">La clave es evitar la <strong>Subinversión</strong> en <strong>Capacidad de Servicio</strong> y el <strong>Trabajo Estándar</strong>. La <strong>Matriz de Priorización</strong> de los Kaizen ayuda a encontrar el <strong>Punto de Apalancamiento</strong> correcto.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
